@@ -1,0 +1,20 @@
+# ViRMEn
+
+ViRMEn is a MATLAB-based software package for designing and running virtual reality experiments on animals. ViRMEn contains 3 components:
+ 
+1. A simple-to-use graphical user interface (GUI) for interactively designing virtual environments.
+2. A graphics engine that performs 3D rendering of virtual environments on a computer monitor or using a projector.
+3. A MATLAB-based toolbox for programming virtual-reality experiments and manipulating environments in real time.
+ 
+The user interface of ViRMEn is entirely within MATLAB. However, in the background, ViRMEn achieves fast graphics by directly accessing low-level OpenGL commands. The engine also recognizes physical boundaries within virtual environments and performs collision detection to manage the animal’s contact with these boundaries.
+ 
+ViRMEn is designed to be highly customizable. The engine can apply arbitrary spatial transformations to virtual environments to display them on practically any type of screen (flat, conical, toroidal, cylindrical, etc). The engine can also access any type of an input device (such as an optical mouse) to obtain the animal’s velocity information. Finally, the engine runs custom user-written MATLAB code that can implement experiment logic, reward delivery, data logging, etc.
+
+# Installing and using ViRMEn
+Download the ViRMEn software package. Simply download the package and add all subfolders to your MATLAB directory. Then, in MATLAB, run `virmen`. The download package includes a detailed user manual with tutorials for getting started.
+
+# Publications
+Aronov, D. and Tank, D. W. (2014) Engagement of Neural Circuits Underlying 2D Spatial Navigation in a Rodent Virtual Reality System. Neuron 84(2): 442-56.
+ 
+# Getting Help
+Please contact Dmitriy Aronov.
