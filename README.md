@@ -1,4 +1,5 @@
 # Repository Content
+This repository contains ViRMEn, the Virtual Reality MATLAB Engine. Various versions are archived as zip files in the `Software` folder. The VR design is documented in the `VR design` folder. 
 
 # Version History
 
